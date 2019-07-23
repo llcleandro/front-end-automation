@@ -1,0 +1,14 @@
+signup:
+  email: 'teste@teste.com'
+  title: 'Mr.'
+  first-name: 'Leandro'
+  last-name: 'Teste'
+  password: 'change123'
+  adress: '401 7th Ave'
+  city: 'New York'
+  state: 'New York'
+  zip: '10001'
+  phone-mobile: '2127365000'
+
+messages:
+  email-already: 'An account using this email address has already been registered. Please enter a valid password or request a new one.'

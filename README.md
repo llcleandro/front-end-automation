@@ -31,26 +31,26 @@ This Tests use the BDD framework is based in Ruby + Cucumber + Capybara + Rspec 
 * chrome is browser default
 
 ### Run All Tests
-type: $AMBEV-TEST-FRONT>cucumber features\*
+type: $front-end-automation>cucumber features\*
 
 ### Run only Search Tests
-type: $AMBEV-TEST-FRONT>cucumber features\specs\automationpractice.feature
+type: $front-end-automation>cucumber features\specs\automationpractice.feature
 
 ### Run only Signup Tests
-type: $AMBEV-TEST-FRONT>cucumber features\specs\signup.feature
+type: $front-end-automation>cucumber features\specs\signup.feature
 
 ### Run Sucess Tests
-type: $AMBEV-TEST-FRONT>cucumber features\specs\* --tag @success
+type: $front-end-automation>cucumber features\specs\* --tag @success
 
 ### Run Tests with error message
-type: $AMBEV-TEST-FRONT>cucumber features\specs\* --tag @errorMessage
+type: $front-end-automation>cucumber features\specs\* --tag @errorMessage
 
 ### Rum Error Test (forced error)
-type: $AMBEV-TEST-FRONT>cucumber features\specs\* --tag @error
+type: $front-end-automation>cucumber features\specs\* --tag @error
 
 ### Rum Testes using Firefox
-type: $AMBEV-TEST-FRONT>cucumber features\* BROWSER=firefox --tag @1
+type: $front-end-automation>cucumber features\* BROWSER=firefox --tag @1
 
 ## View Report
-Report is generated in $AMBEV-TEST-FRONT\reports in html format
-- $AMBEV-TEST-FRONT\reports\execution_report.html
+Report is generated in $front-end-automation\reports in html format
+- $front-end-automation\reports\execution_report.html
